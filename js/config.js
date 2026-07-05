@@ -1,5 +1,5 @@
 // =============================================
-// CONFIG - StreamFlix / Cine3D (Multi-Language)
+// CONFIG - Cine3D Premium VidLink Route
 // =============================================
 const CONFIG = {
   TMDB_API_KEY: "bb52b04dbc4a5dff90d1df4e1e30cd42",
@@ -8,7 +8,7 @@ const CONFIG = {
   TMDB_BACKDROP_SIZE: "w1280",
   TMDB_POSTER_SIZE: "w500",
   
-  // Premium Player Routes with Multi-Language / Hindi Dub support
-  PLAYER_MOVIE_URL: "https://vidsrc.to/embed/movie/",
-  PLAYER_TV_URL: "https://vidsrc.to/embed/tv/",
+  // Multi-language stable API route
+  PLAYER_MOVIE_URL: "https://vidlink.pro/embed/movie/",
+  PLAYER_TV_URL: "https://vidlink.pro/embed/tv/",
 };
