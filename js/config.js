@@ -1,5 +1,5 @@
 // =============================================
-// CONFIG - StreamFlix
+// CONFIG - StreamFlix / Cine3D
 // =============================================
 const CONFIG = {
   TMDB_API_KEY: "bb52b04dbc4a5dff90d1df4e1e30cd42",
@@ -7,9 +7,8 @@ const CONFIG = {
   TMDB_IMAGE_BASE: "https://image.tmdb.org/t/p",
   TMDB_BACKDROP_SIZE: "w1280",
   TMDB_POSTER_SIZE: "w500",
-  // Vidking Player embed base URL
-  // For movies: https://vidking.net/embed/movie/{tmdb_id}
-  // For TV:     https://vidking.net/embed/tv/{tmdb_id}/{season}/{episode}
-  PLAYER_MOVIE_URL: "https://vidking.net/embed/movie/",
-  PLAYER_TV_URL: "https://vidking.net/embed/tv/",
+  
+  // Premium Player embed URLs (Working 24/7 on all devices)
+  PLAYER_MOVIE_URL: "https://vidsrc.to/embed/movie/",
+  PLAYER_TV_URL: "https://vidsrc.to/embed/tv/",
 };
