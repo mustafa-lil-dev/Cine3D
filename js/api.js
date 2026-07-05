@@ -3,5 +3,5 @@ function moviePlayerUrl(id) {
 }
 
 function tvPlayerUrl(id, season = 1, episode = 1) {
-  return CONFIG.PLAYER_TV_URL + id + "?s=" + season + "&e=" + episode;
+  return `${CONFIG.PLAYER_TV_URL}${id}/${season}/${episode}`;
 }
