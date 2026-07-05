@@ -7,8 +7,6 @@ const CONFIG = {
   TMDB_IMAGE_BASE: "https://image.tmdb.org/t/p",
   TMDB_BACKDROP_SIZE: "w1280",
   TMDB_POSTER_SIZE: "w500",
-  
-  // Premium Player Base URLs
   PLAYER_MOVIE_URL: "https://vidlink.pro/embed/movie/",
   PLAYER_TV_URL: "https://vidlink.pro/embed/tv/",
 };
