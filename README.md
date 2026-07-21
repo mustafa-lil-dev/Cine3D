@@ -1,4 +1,4 @@
-# 🎬 StreamFlix - Free Movie & TV Streaming Site
+# 🎬 CINE3D - Free Movie & TV Streaming Site
 
 A Netflix-inspired streaming frontend built with vanilla HTML/CSS/JS.
 Uses TMDB API for metadata and Vidking Player for video streaming.
@@ -29,7 +29,7 @@ streamflix/
 ## 🚀 How to Run
 
 ### Option 1 — VS Code Live Server (Recommended)
-1. Open the `streamflix` folder in VS Code
+1. Open the `cine3d` folder in VS Code
 2. Install the **Live Server** extension (by Ritwick Dey)
 3. Right-click `index.html` → **Open with Live Server**
 4. Site opens at `http://localhost:5500`
@@ -42,7 +42,7 @@ python -m http.server 8080
 ```
 
 ### Option 3 — Deploy to Web
-- **Netlify**: Drag & drop the `streamflix` folder at netlify.com
+- **Netlify**: Drag & drop the `cine3d` folder at netlify.com
 - **Vercel**: `vercel deploy` from the folder
 - **GitHub Pages**: Push to GitHub and enable Pages
 
