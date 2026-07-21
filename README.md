@@ -1,9 +1,19 @@
-# 🎬 CINE3D - Free Movie & TV Streaming Site
+<div align="center">
 
-A Netflix-inspired streaming frontend built with vanilla HTML/CSS/JS.
-Uses TMDB API for metadata and Vidking Player for video streaming.
+# 🎬 CINE3D
 
-* **Live Website:** [https://cine3-d.vercel.app/](https://cine3-d.vercel.app/)
+### A Next-Generation, Netflix-Inspired Streaming Frontend
+
+[![Live Website](https://img.shields.io/badge/Live-Website-red?style=for-the-badge&logo=vercel)](https://cine3-d.vercel.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+
+<p align="center">
+  <img src="Screenshot%202026-07-05%20200803.png" alt="CINE3D Preview" width="100%">
+</p>
+
+</div>
 
 ---
 
@@ -14,28 +24,32 @@ Uses TMDB API for metadata and Vidking Player for video streaming.
 
 ---
 
-## 📸 Preview
+## 🚀 Features
 
-![CINE3D Homepage Preview](D:/Screenshot%202026-07-05%20200803.png)
-
----
-
----
-
-## ✨ Features
-
-- 🎬 Hero banner with auto-rotating featured content
-- 🔥 Trending, Popular, Top Rated, New Releases rows
-- 🔍 Live search with multi-result display
-- 🎞️ Movie detail pages with cast, genres, similar titles
-- 📺 TV show pages with season/episode selector
-- ▶️ Embedded Vidking video player
-- 📱 Fully responsive for mobile
+* **🎬 Dynamic Hero Banner:** Auto-rotating featured content showcase.
+* **🔥 Rich Content Rows:** Trending, Popular, Top Rated, and New Releases grids.
+* **🔍 Live Search:** Multi-result real-time lookup system.
+* **🎞️ Comprehensive Details:** Cast info, genres, and similar title suggestions.
+* **📺 TV Show Integration:** Dedicated episode and season switching selectors.
+* **▶️ Embedded Streaming:** Integrated third-party Vidking video playback.
+* **📱 Fully Responsive:** Optimized layout across mobile, tablet, and desktop viewports.
 
 ---
 
-## 📌 Notes
+## 📁 Project Structure
 
-- This project uses the TMDB API for movie metadata only
-- Video playback is handled by Vidking Player (third-party)
-- No backend required — pure static files
+```text
+cine3d/
+├── index.html         ← Homepage with hero & trending rows
+├── css/
+│   └── style.css      ← Global stylesheets
+├── js/
+│   ├── config.js      ← API keys & player endpoints
+│   ├── api.js         ← TMDB helpers & card component builders
+│   └── home.js        ← Homepage dynamic execution logic
+└── pages/
+    ├── movies.html    ← Movie directory
+    ├── tv.html        ← TV series directory
+    ├── search.html    ← Instant search engine
+    ├── detail.html    ← Metadata detail viewer
+    └── watch.html     ← Video player interface
