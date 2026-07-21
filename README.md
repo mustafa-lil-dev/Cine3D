@@ -1,10 +1,9 @@
-Markdown
 # 🎬 CINE3D - Free Movie & TV Streaming Site
 
 A Netflix-inspired streaming frontend built with vanilla HTML/CSS/JS.
 Uses TMDB API for metadata and Vidking Player for video streaming.
 
-* **Live Website:** https://cine3-d.vercel.app
+* **Live Website:** [https://cine3-d.vercel.app/](https://cine3-d.vercel.app/)
 
 ---
 
@@ -12,6 +11,12 @@ Uses TMDB API for metadata and Vidking Player for video streaming.
 
 * **Mustafa Khoso** 
 * Undergrad Computer Engineering Student
+
+---
+
+## 📸 Preview
+
+![CINE3D Homepage Preview](./Screenshot%202026-07-05%20200803.jpg)
 
 ---
 
