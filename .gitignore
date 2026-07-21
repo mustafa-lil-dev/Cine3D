@@ -1,3 +1,13 @@
+# Editor and IDE directories
+.vscode/
+.vs/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -7,14 +17,6 @@
 ehthumbs.db
 Thumbs.db
 
-# IDE and Editor files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-
-# Local configuration with API keys (if you want to keep your key private)
-# js/config.local.js
+# Local configuration files
+js/config.local.js
+.env
