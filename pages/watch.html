@@ -69,11 +69,11 @@ function embedPlayer() {
   const wrap = document.getElementById("playerWrap");
   let url = "";
   if (type === "movie") {
-    url = `${CONFIG.PLAYER_MOVIE_URL}${id}`;
+    url = `https://vidsrc.xyz/embed/movie?tmdb=${id}`;
   } else {
-    url = `${CONFIG.PLAYER_TV_URL}${id}/${season}/${episode}`;
+    url = `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`;
   }
-  wrap.innerHTML = `<iframe src="${url}" allowfullscreen allow="autoplay; fullscreen; encrypted-media" referrerpolicy="no-referrer"></iframe>`;
+  wrap.innerHTML = `<iframe src="${url}" width="100%" height="100%" frameborder="0" allowfullscreen allow="autoplay; fullscreen; encrypted-media" referrerpolicy="no-referrer"></iframe>`;
 }
 
 async function loadWatch() {
