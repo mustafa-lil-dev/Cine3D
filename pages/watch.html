@@ -16,9 +16,9 @@
   </a>
   <div class="nav-links">
     <a href="../index.html" class="nav-link">Home</a>
-    <a href="movies.html" class="nav-link">Movies</a>
-    <a href="tv.html" class="nav-link">TV Shows</a>
-    <a href="search.html" class="nav-link">Search</a>
+    <a href="/pages/movies.html" class="nav-link">Movies</a>
+    <a href="/pages/tv.html" class="nav-link">TV Shows</a>
+    <a href="/pages/search.html" class="nav-link">Search</a>
   </div>
 </nav>
 
@@ -77,7 +77,7 @@ function embedPlayer() {
 }
 
 async function loadWatch() {
-  document.getElementById("backBtn").href = `detail.html?type=${type}&id=${id}`;
+  document.getElementById("backBtn").href = `/pages/detail.html?type=${type}&id=${id}`;
   embedPlayer();
 
   try {
@@ -88,7 +88,7 @@ async function loadWatch() {
     currentDetail = detail;
 
     const title = detail.title || detail.name;
-    document.title = `Watch ${title} - StreamFlix`;
+    document.title = `Watch ${title} - Cine3D`;
     document.getElementById("watchTitle").textContent = title;
 
     let meta = `${formatDate(detail.release_date || detail.first_air_date)}`;
