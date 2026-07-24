@@ -20,3 +20,6 @@ Thumbs.db
 # Local configuration files
 js/config.local.js
 .env
+
+.vs/
+.vscode/
